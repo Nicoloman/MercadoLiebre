@@ -10,8 +10,6 @@ app.listen(proccess.env.PORT || 3000, ()=>{
 
 app.use(express.static('public'));
 
-app.listen(3000, ()=> console.log('Servidor Corriendo en el Puerto 3000.'));
-
 app.get('/', (req, res)=>{
     res.sendFile(path.resolve(__dirname,'./views/home.html'))
 });
