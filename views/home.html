@@ -27,7 +27,7 @@
             <ul class="left-navbar">
                 <li><a href="">Ofertas</a></li>
                 <li><a href="">Tiendas Oficiales</a></li>
-                <li><a href="">Crea Tu Cuenta</a></li>
+                <li><a href="/crear-producto">Ingresa un Producto</a></li>
                 <li><a href="">Ayuda</a></li>
             </ul>
             <ul class="right-navbar">
@@ -39,45 +39,6 @@
     </header>
     <img class="img" src="/images/img-home-banner.jpg" alt="Banner MercadoLiebre">
     <main class="main-section">
-        <h2 class="section-title"> Ingresar un producto</h2>
-        <form class="crear-producto" action="crear-producto" method="post">
-           <div id="ingresar-producto">
-            <div>
-                <input class="input-text" type="text" placeholder="Nombre del Producto">
-            </div>
-            <div>
-                <input class="input-text" type="number" name="precio" placeholder="$$$$">
-            </div>
-            </div>
-            <div id="main-categoria">
-                <label class="data-label" for="">Categoria</label>
-                <div id="categoria">
-                <div id="form-categoria">
-                    <select class="input-text" name="categoria">
-                        <option value="Hogar">Hogar</option>
-                        <option value="electro">Electro</option>
-                        <option value="Indumentaria">Indumentaria</option>
-                    </select>
-                </div>
-                <div>
-                    <textarea  class="input-text" name="description" id="form-categoria" placeholder="Ingrese una descripcion"></textarea>
-                </div>
-            </div>
-            </div>
-            <div id="oferta-comentarios">
-                <div>
-                    <label class="data-label" for="">Esta en Oferta?</label>
-                    <input type="radio" name="en-oferta">
-                </div>
-                <div>
-                    <textarea  class="input-text" name="description" id="form-categoria" placeholder="Ingrese Comentarios..."></textarea>
-                </div>
-            </div>
-            <div id="buttons">
-                <button type="reset">Borrar</button>
-                <button type="submit"><a href="/">Enviar</a> </button>
-            </div>
-        </form>
         <section class="last-visit">
             <h2 class="section-title">Basado en tu ultima visita.</h2>
             <div id="products">
